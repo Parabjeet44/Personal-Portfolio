@@ -93,6 +93,7 @@ async function showProjectDetails(repoName) {
         
         const repoLink = document.getElementById('repoLink');
         repoLink.href = repo.html_url;
+
         
         document.getElementById('projectModal').style.display = 'block';
     } catch (error) {
